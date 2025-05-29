@@ -1,0 +1,29 @@
+login 0 0000
+add_teacher Pesho Petrov qwerty
+add_student Ivan Ivanov 123456
+add_student Ilian Iliev 000000
+message_all Welcome to our Course Management System!
+logout
+login 100 qwerty
+change_password qwerty 111111
+create_course OOP-SE cooked
+change_password_for_course OOP-SE 999
+add_to_course OOP-SE 101
+assign_homework OOP-SE Homework1
+logout
+login 101 123456
+mailbox
+logout
+login 102 000000
+submit_assignment OOP-SE Homework1 Link to my source code: https://github.com/
+message 101 Do you need help with your homework?
+logout
+login 100 111111
+view_assignment_submissions OOP-SE Homework1
+grade_assignment OOP-SE Homework1 102 5.89 Great Work!
+logout
+login 102 000000
+mailbox
+clear_mailbox
+mailbox
+grades
